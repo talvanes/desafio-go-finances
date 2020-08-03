@@ -23,7 +23,7 @@ export const Container = styled.div<ContainerProps>`
         font-size: 16px;
         transition: opacity 0.2s;
 
-        /* Conditional formatting */
+        /* Conditional styling */
         /* border-bottom: 2px solid #ff872c;
         padding-bottom: 10px; */
 
@@ -33,6 +33,9 @@ export const Container = styled.div<ContainerProps>`
 
         &:hover {
           opacity: 0.6;
+
+          border-bottom: 2px solid #ff872c;
+          padding-bottom: 10px;
         }
       }
     }
